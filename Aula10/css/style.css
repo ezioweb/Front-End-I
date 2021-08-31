@@ -1,0 +1,60 @@
+
+body {
+
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+  }
+.media-picture{
+    background-image: url(https://www.istoedinheiro.com.br/wp-content/uploads/sites/17/2019/10/imagemn-escolhida-artigo-e1571255765939-1280x720.jpg);
+    width: 640px;  
+    height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 220px 300px;
+      text-align: center;
+      box-sizing: content-box;
+      border: 10px double turquoise;
+      border-radius: 25px;
+      margin: 20px 20px;
+}
+
+
+/* .texto {
+
+    width: 200px;
+    height: 100%;
+    padding: 12px;
+    border: solid 3px white;
+    justify-content: center;
+    margin: 20px ;
+    color: yellow;
+  
+} */
+
+/* .page-text {
+
+        background-color: cornsilk;
+        color: rgb(3, 43, 43);
+        width: 400px;
+        height: 100%;
+        padding: 12px;
+        border: solid 3px yellow;
+        justify-content: center;
+        margin: 20px 0px;
+        
+    } */
+
+/*  {
+    background-color: blueviolet;
+    color: white;
+    padding: 20px 60px;
+    border: 10px double turquoise;
+    border-radius: 25px;
+    margin: 20px 0px;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    text-align: center;
+} */
