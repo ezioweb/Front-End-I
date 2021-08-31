@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 1000px;
+  }
+
+  .box {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    border: black 5px solid;
+    background-color: coral;
+    
+    text-align: center;
+  }
+  .boxinho {
+    width: 120px;
+    height: 120px;
+    padding: 25px;    
+    border: black 5px solid;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+  }  
+  #mae {
+    padding: 0px;
+    height: 2000px;
+  }
+  
+  #div1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  #div3 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+
+  #div2 {
+    position: fixed;
+    top: 300px;
+    left: 44%;
+  }
