@@ -2,17 +2,20 @@
     box-sizing: border-box;
   }
   
+  /* Verificar */
+
   body {
-    height: 1000px;
+    height: 1000px;     /* Verificar */
   }
+
+  /* Verificar */
 
   .box {
     width: 150px;
     height: 150px;
     padding: 10px;
     border: black 5px solid;
-    background-color: coral;
-    
+    background-color: coral;    
     text-align: center;
   }
   .boxinho {

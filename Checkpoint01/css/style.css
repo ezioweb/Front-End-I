@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+   
+    h1 {
+        color: rgb(70, 14, 7);    
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    h2 {
+        color: rgb(11, 94, 0);    
+        font-family: 'Kaisei HarunoUmi', serif;
+        text-align: center;
+    }
+    .topo{
+        width: auto;
+        height: auto;
+        padding: 15px;
+        border: rgb(0, 124, 10) 5px solid;
+        background-color: rgb(231, 228, 178);    
+        text-align: center;  
+}
+
+body {
+    background-color: #ffffff;
+  }
+  .nav {
+    height: 100px;
+    border: black 5px solid;
+    position: sticky;
+    top: 10px;
+    background-color: coral;
+    padding: 30px;
+  }
+.corpo{
+    background-image: url(http://br.distanciacidades.net/fotos/15823641.jpg);    
+    width: 640px;  
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+      color: white;
+      padding: 20px 20px;
+      text-align: center;
+      box-sizing: content-box;
+      margin: 20px 20px;
+      
+}
+.legenda{
+    position: relative;
+    top: -15px;
+    left: 20px;
+    color: black
+}
+
+.box {
+    width: 640px;
+    height: 360px;
+    text-align: left;
+  }
+#div1 {
+    position: absolute;
+    top: 190px;
+    left: 760px;
+}
+.video{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.lista{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.icon{
+    position: relative;
+    top: 20px;
+    left: 0px;
+    width: 300px;
+    height: auto;
+    padding: 0px;
+    text-align: center;  
+    justify-content: space-evenly
+}
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" href="">
+    <title>Aula12 - Formulário</title>
+</head>
+
+<body>
+
+   <form action="/registro" method="POST">
+    <fieldset form=usrcad> 
+
+      <div id="div"> 
+      <h1>Dados Cadastrais</h1>
+      </div>
+
+<div>
+  <input type="text" name="usuario" id="nome"> required placeholder="Insira seu nome aqui"
+  </div>
+  <div>
+    <input type="password" name="senha">
+  </div>
+  <div>
+    <input type="email" name="email"> <!-- obrigatório formato de e-mail -->
+  </div>
+  <div>
+   
+    <label for="nome">Nome:</label>
+  </div>
+  <div>
+    <input type="text" name="nome" id="nome">
+  </div>
+  <div>
+    
+    <label for="nome">Nome:</label>
+  </div>
+  <div>
+    <input type="text" name="nome" id="nome">
+  </div>
+  <div>
+    <label for="email">Email:</label>
+  </div>
+  <div>
+    <input type="email" name="email" id="email">
+  </div>
+  <div>
+   
+    <label for="idade">Idade:</label>
+  </div>
+  <div>
+    <input type="number" name="idade" id="idade">
+  </div>
+  <div>
+  
+    <label for="comentario">Deixe o seu comentário:</label>
+  </div>
+  <div>
+   <textarea name="comentario" id="comentario">Conteúdo</textarea>
+  </div>
+  <div>
+  
+   form action="/colors" method="GET">
+   <label>Escolha uma Cor:</label>
+   <select name="color">
+   <optgroup label="Cor">
+   <option value="#ff0000">Vermelho</option>
+   <option value="#00ff00">Verde</option>
+   <option value="#0000ff">Azul</option>
+   <option value="#770077">Roxo</option>
+   </select>
+
+  </div>
+  <div>
+  
+   <label for="data">Data de Nascimento:</label>
+   <input type="date" name="data" id="data">
+
+  </div>
+  <div>  
+   
+   <input type="radio" name="pagamento" value="Pix" id="meiopagpix" checked> <label for="meiopagpix">Pix/label>
+   <input type="radio" name="pagamento" value="Crédito" id="meiopagcred"> <label for="meiopagcred">Crédito/label>
+   <input type="radio" name="pagamento" value="Boleto" id="meiopagbol"> <label for="meiopagbol">Boleto/label>
+  
+  </div>
+  <div>
+  
+   <label for="pagamento">Email:</label>
+   <input type="checkbox" name="pagamento" value="pix"> <label for="meiopagpix">Pix/label>
+   <input type="checkbox" name="pagamento" value="crédito"> <label for="meiopagpix">Pix/label>
+   <input type="checkbox" name="pagamento" value="boleto"> <label for="meiopagpix">Pix/label>
+  
+  </div>
+  <div>
+  
+   <label for="usuario">Ingressa o usuario:</label>
+   <input type="text" name="usuario">
+   <button type="reset">Cancelar</button>
+   <button type="submit">Enviar</button>
+
+  </div>
+
+  </fieldset>
+  </form> 
+   
+  
+</body>
+</html>
