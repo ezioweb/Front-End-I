@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css" href="">
+    <title>Aula12 - Formulário</title>
+</head>
+
+<body>
+
+   <form action="/registro" method="POST">
+  
+
+      <div id="div"> 
+      <h1>Dados Cadastrais</h1>
+      </div>
+      <fieldset form=usrcad> 
+ <div>
+    
+    <label for="nome">Nome:</label>
+  </div>
+  <div>
+    <input type="text" name="nome" id="nome">
+  </div>
+  <br>
+  </br>
+  <div>
+    <label for="email">Email:</label>
+  </div>
+  <div>
+    <input type="email" name="email" id="email">
+  </div>
+  <br>
+  </br>
+  <div>
+   
+    <label for="idade">Idade:</label>
+  </div>
+  <div>
+    <input type="number" name="idade" id="idade">
+  </div>
+  <br>
+  </br>
+  <div>
+  
+    <label for="comentario">Deixe o seu comentário:</label>
+  </div>
+  <div>
+   <textarea name="comentario" id="comentario">Conteúdo</textarea>
+  </div>
+  <br>
+  </br>
+  <div>  
+   <label>Escolha uma Cor:</label>
+  </div>
+  <div>
+   <select name="color">
+   <optgroup label="Cor">
+   <option value="#ff0000">Vermelho</option>
+   <option value="#00ff00">Verde</option>
+   <option value="#0000ff">Azul</option>
+   <option value="#770077">Roxo</option>
+   </select>
+
+  </div>
+  <br>
+  </br>
+  <div>
+  
+   <label for="data">Data de Nascimento:</label>
+  </div>
+  
+  <div>
+   <input type="date" name="data" id="data">
+
+  </div>
+  <br>
+  </br>
+  <div>  
+   
+   <input type="radio" name="pagamento" value="Pix" id="meiopagpix" checked> <label for="meiopagpix">Pix
+   <input type="radio" name="pagamento" value="Crédito" id="meiopagcred"> <label for="meiopagcred">Crédito
+   <input type="radio" name="pagamento" value="Boleto" id="meiopagbol"> <label for="meiopagbol">Boleto
+
+     
+  </div>
+  <br>
+  </br>
+  <div>
+  
+   <label for="pagamento">Hobbie</label>
+  </div>
+  <br>
+  </br>
+  <div>
+   <input type="checkbox" name="pagamento" value="pix"> <label for="meiopagpix">Esporte
+   <input type="checkbox" name="pagamento" value="crédito"> <label for="meiopagpix">Leitura
+   <input type="checkbox" name="pagamento" value="boleto"> <label for="meiopagpix">Filmes e séries
+  
+  </div>
+  <br>
+  </br>
+  <div>
+<label for="Termos">Aceito os termos</label>
+<input type="checkbox" name="Termos">
+  </div>
+  <br>
+  </br>
+  
+   <button type="reset">Cancelar</button>
+   <button type="submit">Enviar</button>
+
+  </div>
+
+  </fieldset>
+  </form> 
+   
+  
+</body>
+</html>

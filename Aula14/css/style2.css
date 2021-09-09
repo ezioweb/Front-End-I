@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  }
+
+#div{
+  
+  width: 10px;
+  height: 10px;
+  left: 50px;
+  top: 20px;
+  backgroundcolor: white
+  }
+
+.h1{
+  position: absolute;
+  left: 30px;
+  color:darkblue
+  backgroundcolor: white
+}
+
+
+fieldset{
+  margin: 5%;
+  border: 2px violet solid;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative
+}
+
+legend{
+
+}
+
+button{
+  
+}
+
+  
+
