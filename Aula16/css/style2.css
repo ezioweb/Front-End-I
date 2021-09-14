@@ -1,0 +1,86 @@
+body {
+    height: 1600px;
+    font-size: 18px;
+}
+
+input, button{
+    margin: 10px 0;
+}
+
+input:focus{
+    background-color: chartreuse;
+}
+
+button:enabled{
+    background-color: darkgreen;
+    color: white
+}
+
+button:disabled {
+    background-color: gray;
+    color: white;
+  }
+
+li:nth-child(2n){
+    background-color: salmon;
+}
+
+
+
+a {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: orangered
+}
+
+a:hover{
+    color: purple;
+}
+
+a:active{
+    color: green;
+}
+
+p:target{
+    background-color: gold;
+}
+
+
+#p3::first-letter{
+    color: red;
+    font-size: 30px;
+    color
+}
+
+#p3::after{
+    font-size: 18px;
+    content: "Atenção aqui!";
+    color: red;
+}
+
+#p4::selection {
+    color: gold;
+    background-color: red;
+  }
+
+  .p7 {
+    background-color: #5BC8F7;
+  }
+  
+  .p7::before {
+    content: "Olhe para esta caixa laranja.";
+    background-color: #FFBA10;
+    border-color: black;
+    border-style: dotted;
+  }
+
+  #p5::first-line {
+    color: blue;
+    text-transform: uppercase;

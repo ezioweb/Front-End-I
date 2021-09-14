@@ -1,0 +1,58 @@
+button {
+    margin: 100px;
+    position: relative;
+    border: 0;
+    top: 200px;
+       border-radius: 5px;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 500;
+    background-color: blanchedalmond;
+    color: #000;
+     
+
+   
+}
+button:hover{
+    background-color: rgb(21, 224, 113);
+    color: rgb(187, 27, 27);
+    transition: 
+    backgroumd-color 2.8s,
+    color, 2.8s;
+    
+    
+}
+
+div{
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-left: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(72, 97, 236);
+    color: rgb(255, 255, 255);
+
+    transform: scale(1) skew(0deg)
+    }
+
+div:hover{
+    transform: scale(3) skew(20deg)
+}
+
+img{
+    opacity: 0;
+}
+
+img:hover{
+   animation: deslizar 5s normal;
+}
+
+@keyframes deslizar {
+    0% {opacity: 0%; transform: rotate(180deg)}
+    50% {transform: translate(400px)}
+    100% { transform: rotate(180deg); opacity: 100%;}
+}
