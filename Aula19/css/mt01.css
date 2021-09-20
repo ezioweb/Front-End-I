@@ -35,6 +35,7 @@ header {
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
+  border: 10px;
 }
 
 .item {
@@ -46,4 +47,8 @@ header {
   display: flex;
   align-items: right;
   flex-direction: row;
+}
+
+.image {
+  border-radius: 10px;
 }
