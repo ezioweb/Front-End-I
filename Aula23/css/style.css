@@ -1,0 +1,25 @@
+.menu{
+    border:blue solid 5px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    padding: 2%;
+    text-align: center;
+    word-spacing: 50px;
+    position: sticky; /* colando o texto */
+    top: 0;
+    background-color: whitesmoke;
+}
+
+.menu a{ /* para poder remover o sublinhado dos links */
+    text-decoration: none;
+}
+
+img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+      
+}

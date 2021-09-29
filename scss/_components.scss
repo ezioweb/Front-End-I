@@ -1,0 +1,32 @@
+//components reutilizáveis
+
+@use 'base';
+
+//extends
+
+// classe mãe - propriedades comund a serem herdades pelas classes filhas
+%message-shared{
+    height: 200px;
+    width: 200px;
+    border: 3px solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.message {
+    @extend %message-shared;
+    border-color: black;
+}
+
+.info {
+    @extend %message-shared;
+    border-color: base.$info-color;
+    color: base.$info-color
+}
+
+.alert {
+    @extend %message-shared;
+    border-color: base.$alert-color;
+    color: base.$alert-color;
+}

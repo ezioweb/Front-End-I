@@ -3,6 +3,23 @@
   font-weight: 700;
   }
 
+  /* Color Theme Swatches in Hex */
+.Felicidade-1-hex { color: #771AF0; }
+.Felicidade-2-hex { color: #787AFA; }
+.Felicidade-3-hex { color: #247AE3; }
+.Felicidade-4-hex { color: #64E8FA; }
+.Felicidade-5-hex { color: #2AF5B1; }
+
+/* Color Theme Swatches in Hex */
+.Riqueza-1-hex { color: #C2F21D; }
+.Riqueza-2-hex { color: #FCEF7C; }
+.Riqueza-3-hex { color: #E6B227; }
+.Riqueza-4-hex { color: #FCBB68; }
+.Riqueza-5-hex { color: #F76E2D; }
+
+
+
+
 /* Modo que muda depois de certa largura de flex para grid (não tem  grid-template-areas os elementos vão preencendo as colunas conforme sua ordem no HTML)
 .container{
     display: flex;

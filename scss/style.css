@@ -1,0 +1,73 @@
+.sucess {
+  height: 100px;
+  width: 600px;
+  border: 3px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: rgba(45, 233, 28, 0.2);
+  border-color: #2de91c;
+  color: #2de91c;
+}
+
+.alert-sm {
+  height: 50px;
+  width: 300px;
+  border: 3px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: rgba(233, 151, 28, 0.2);
+  border-color: #e9971c;
+  color: #e9971c;
+}
+
+.alert, .info, .message {
+  height: 200px;
+  width: 200px;
+  border: 3px solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.message {
+  border-color: black;
+}
+
+.info {
+  border-color: #751ce9;
+  color: #751ce9;
+}
+
+.alert {
+  border-color: #e9971c;
+  color: #e9971c;
+}
+
+header {
+  height: 15vh;
+  background-color: #0ca719;
+  display: flex;
+}
+header h1 {
+  color: white;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  background-color: #0ca719;
+  padding: 1rem;
+}
+
+h2 {
+  color: #0ca719;
+}
+
+h3 {
+  border: 3px solid #0ca719;
+  padding: 2rem;
+}/*# sourceMappingURL=style.css.map */

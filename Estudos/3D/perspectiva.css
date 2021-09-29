@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 20px;
+  }
+  
+  .parent {
+    width: 50%;
+    display: inline-block;
+    padding: .5em;
+  }
+  
+  .parent.perspective {
+    perspective: 50em;
+  }
+  
+  .child {
+    margin: .5em;
+    width: 3em;
+    height: 3em;
+    background: tomato;
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,.5);
+  }
+  
+  .parent.perspective .child {
+    transform: rotateX(50deg);
+    background: tomato;
+  }
+  
+  .parent.transform .child {
+    transform: perspective(50em) rotateX(50deg);
+    background: deepskyblue;
+  }
+  
+  h1 {
+    font-size: 1em;
+  }
