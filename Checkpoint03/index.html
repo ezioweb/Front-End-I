@@ -4,31 +4,102 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
 
     <!-- Bootstrap CSS -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styte.css">
-    <title>Hello, Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>DH Developers</title>
+    <style>
+
+      /* Image for Parallax Section */ 
+      .paralsec {
+      background-image: url("img/header-2.jpg");
+      }
+
+      .paralsec1 {
+background-image: url("img/header-1.jpg");}
+
+.paralsec2 {
+background-image: url("img/header-3.jpg");
+}
+      
+      </style>
   </head>
-  <header>
-     
-  </header>
   <body>
-      <div class="parallax-header">
-          <!-- Container -->
-          <div class="container">
-              <div class="header-content">
-                <a href="#">
-                    <img src="img/dev_logo.jpg" width="200px" class="d-block mx-auto" alt="">
-                    <!-- <button type="button" class="btn btn-primary">Primary</button> -->
-                </a>
-              </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+      <div class="container-fluid navbar-expand justify-content-center">
+        <a class="navbar-brand" href="#">
+          <img src="img/dev_logo.jpg" alt="" width="100" height=auto>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+           </ul>
+        </div>
+      </div>
+    </nav>
 
-          </div>
-
+    <div class="jumbotron paral paralsec">
+  
+      <h1 class="display-3 ">Desenvolvimento de software</h1>
+      <p class="lead bgd border border-white rounded-pill">Soluções inteligentes para desafios variados</p>
+      <p class="lead">
+      <a class="btn btn-primary btn-lg btn-md border border-white" href="themes.html" role="button">Saiba mais</a>
+      </p>
+      </div>
+      
+      <!-- Second Parallax Section -->
+      <div class="jumbotron paral paralsec1">
+      <h1 class="display-3 " >Digitalização de negócios</h1>
+      <p class="lead bgd border border-white rounded-pill">Integração de sistemas = menos tempo | mais economia</p>
+      <p class="lead">
+      <a class="btn btn-primary btn-lg btn-md border border-white " href="widgets.html" role="button">Saiba mais</a>
+      </p>
+      </div>
+      
+      <!-- Third Parallax Section -->
+      <div class="jumbotron paral paralsec2">
+      <h1 class="display-3">Automação de processos</h1>
+      <p class="lead bgd border border-white rounded-pill">Vendas, pedidos, estoque, financeiro, tudo num só sistema</p>
+      <p class="lead">
+      <a class="btn btn-primary btn-lg btn-md border border-white" href="themes.html" role="button">Saiba mais</a>
+      </p>
       </div>
 
-   
+
+
+
+
+
+    <h1>h1. Bootstrap heading</h1>
+<h2>h2. Bootstrap heading</h2>
+<h3>h3. Bootstrap heading</h3>
+<h4>h4. Bootstrap heading</h4>
+<h5>h5. Bootstrap heading</h5>
+<h6>h6. Bootstrap heading</h6>
+
+<h3>
+  Fancy display heading
+  <small class="text-muted">With faded secondary text</small>
+</h3>
+
+<p class="lead">
+  This is a lead paragraph. It stands out from regular paragraphs.
+</p>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
