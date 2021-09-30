@@ -1,3 +1,10 @@
+/*  Daniel Marques do Nascimento
+    Ezio Roberto Lorenzetti
+    Henrique Arantes Nunes
+*/
+
+
+
 /* Header Parallax Element Style*/
 .paral {
   min-height: 600px;
@@ -32,6 +39,15 @@
 
 .margem {
   margin: 2%;
+}
+/* Card e Hover */
+.card {
+  transition: all, 0.9s;
+}
+
+.card:hover {
+  opacity: 70%;
+  transform: scale(1.05);
 }
 
 html {
