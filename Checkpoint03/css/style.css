@@ -40,7 +40,6 @@
 /* Card e Hover */
 .card {
   transition: all, 0.9s;
-    gap: 3%;
 }
 
 .card:hover {
